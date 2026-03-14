@@ -1,0 +1,112 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+
+
+}
+.Tracker-Heading{
+    background-color:  #4466ff;;
+    color: white;
+    padding-left: 20%;
+    font-size: xx-large;
+    width: 70%;
+    height: 90%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+.form{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin:auto;
+    padding: 20px;
+   border-radius: 20px;
+   box-shadow: 0px, 0px, 10px, #4466ff;
+   
+}
+#add-button{
+    width: 50px;
+    height: 50px;
+    background-color: #4466ff;
+    border-radius: 50px;
+    border: #4466ff;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.inputs{
+    width: 30%;
+}
+.cards{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px ;
+    justify-content: space-around;
+     gap: 10px;
+}
+.card{
+    background-color: #4466ff;
+    color: white;
+    gap: 10px;
+
+}
+.trasaction-table{
+    width: 67%;
+    height: 40%;
+    margin-left: 17%;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+#header-table{
+    background-color: #4466ff;
+}
+#table th{
+    padding: 20px;
+    color: white;
+}
+.delete-button, .delete-button:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+@media only screen and (max-width:768px) {
+  .Tracker-Heading{  
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 200%;
+    height: 90%;
+    overflow: hidden;
+}
+.form{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+.inputs{
+    width: 80%;
+}
+#add-button{
+    width: 250px;
+    height: 40px;
+    background-color:black;
+    border-radius: 50px;
+    color: white;
+}
+.cards{
+    display: flex;
+    width: 50%;
+    flex-wrap:wrap ;
+    gap: 10px;
+}
+.card{
+    background-color: black;
+}
+#table{
+    background-color: black;
+}
+    
+}
